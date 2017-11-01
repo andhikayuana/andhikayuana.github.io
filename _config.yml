@@ -84,3 +84,10 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  
+url: https://www.yuana.id   # with the https protocol
+enforce_ssl: www.yuana.id   # without any protocol
+
+# For example, my configuration is this:
+url: https://yuana.id
+enforce_ssl: yuana.id
