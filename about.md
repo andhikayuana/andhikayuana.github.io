@@ -8,4 +8,8 @@ Hi, I'm Andhika Yuana, this is my blog post and i'll share about software engine
 
 ### Contact me
 
-[andhikayuana@gmail.com](mailto:andhikayuana@gmail.com)
+ :blush: Andhika Yuana
+ 
+ :house: Yogyakarta, Indonesia
+
+ :email: [andhikayuana@gmail.com](mailto:andhikayuana@gmail.com)
