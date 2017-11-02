@@ -91,3 +91,7 @@ enforce_ssl: www.yuana.id   # without any protocol
 # For example, my configuration is this:
 url: https://yuana.id
 enforce_ssl: yuana.id
+
+# SEO
+plugins:
+  - jekyll-seo-tag
