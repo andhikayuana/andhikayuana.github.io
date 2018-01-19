@@ -7,7 +7,7 @@ title: How to use Git Submodules in Android Development
 
 Last time, I was working with modular application and monorepo android project. I think it will be great if the repo is separated to some repo modules, not one repo with multiple module inside. So, you can reuse or implement the module to another project.
 
-Currently I have one repo with some modules inside the repo.
+Currently I have one repo with some modules inside.
 
 ### Car Gallery Application
   * App Module
