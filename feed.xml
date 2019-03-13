@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>yuana.id</title>
+    <link href="https://yuana.id/feed.xml" rel="self" />
+    <link href="https://yuana.id" />
+    <updated>2019-03-13T17:57:37+07:00</updated>
+    <author>
+        <name>andhikayuana</name>
+    </author>
+    <id>https://yuana.id</id>
+
+    <entry>
+        <title>This is Second Post!</title>
+        <author>
+            <name>andhikayuana</name>
+        </author>
+        <link href="https://yuana.id/this-is-second-post.html"/>
+        <id>https://yuana.id/this-is-second-post.html</id>
+
+        <updated>2019-03-13T17:49:43+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://yuana.id/media/posts/2/" alt="" />
+                    Lorem ipsum dolor sit amet
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://yuana.id/media/posts/2/" alt="" />
+                Lorem ipsum dolor sit amet
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Hello World!</title>
+        <author>
+            <name>andhikayuana</name>
+        </author>
+        <link href="https://yuana.id/hello-world.html"/>
+        <id>https://yuana.id/hello-world.html</id>
+
+        <updated>2019-03-13T17:48:49+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://yuana.id/media/posts/1/" alt="" />
+                    Lorem ipsum dolor sit amet
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://yuana.id/media/posts/1/" alt="" />
+                Lorem ipsum dolor sit amet
+            ]]>
+        </content>
+    </entry>
+</feed>
