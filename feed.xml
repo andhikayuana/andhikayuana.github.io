@@ -3,7 +3,7 @@
     <title>yuana.id</title>
     <link href="https://yuana.id/feed.xml" rel="self" />
     <link href="https://yuana.id" />
-    <updated>2019-03-14T10:26:33+07:00</updated>
+    <updated>2019-03-14T10:57:52+07:00</updated>
     <author>
         <name>andhikayuana</name>
     </author>
@@ -14,10 +14,13 @@
         <author>
             <name>andhikayuana</name>
         </author>
-        <link href="https://yuana.id/hello-world.html"/>
-        <id>https://yuana.id/hello-world.html</id>
+        <link href="https://yuana.id/hello-world/"/>
+        <id>https://yuana.id/hello-world/</id>
+            <category term="Tech"/>
+            <category term="Music"/>
+            <category term="General"/>
 
-        <updated>2019-03-13T17:48:49+07:00</updated>
+        <updated>2019-03-14T10:39:58+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://yuana.id/media/posts/1/" alt="" />

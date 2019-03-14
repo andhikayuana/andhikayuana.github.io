@@ -10,8 +10,8 @@
     },
     "items": [
         {
-            "id": "https://yuana.id/hello-world.html",
-            "url": "https://yuana.id/hello-world.html",
+            "id": "https://yuana.id/hello-world/",
+            "url": "https://yuana.id/hello-world/",
             "title": "Hello World!",
             "summary": "Lorem ipsum dolor sit amet",
             "content_html": "Lorem ipsum dolor sit amet",
@@ -20,9 +20,12 @@
                 "name": "andhikayuana"
             },
             "tags": [
+                   "Tech",
+                   "Music",
+                   "General"
             ],
             "date_published": "2019-03-13T17:48:49+07:00",
-            "date_modified": "2019-03-13T17:48:49+07:00"
+            "date_modified": "2019-03-14T10:39:58+07:00"
         }
     ]
 }
