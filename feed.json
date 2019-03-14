@@ -10,21 +10,6 @@
     },
     "items": [
         {
-            "id": "https://yuana.id/this-is-second-post.html",
-            "url": "https://yuana.id/this-is-second-post.html",
-            "title": "This is Second Post!",
-            "summary": "Lorem ipsum dolor sit amet",
-            "content_html": "Lorem ipsum dolor sit amet",
-            "image": "https://yuana.id/media/posts/2/",
-            "author": {
-                "name": "andhikayuana"
-            },
-            "tags": [
-            ],
-            "date_published": "2019-03-13T17:49:43+07:00",
-            "date_modified": "2019-03-13T17:49:43+07:00"
-        },
-        {
             "id": "https://yuana.id/hello-world.html",
             "url": "https://yuana.id/hello-world.html",
             "title": "Hello World!",

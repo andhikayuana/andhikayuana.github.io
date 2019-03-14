@@ -3,34 +3,12 @@
     <title>yuana.id</title>
     <link href="https://yuana.id/feed.xml" rel="self" />
     <link href="https://yuana.id" />
-    <updated>2019-03-13T18:09:12+07:00</updated>
+    <updated>2019-03-14T10:26:33+07:00</updated>
     <author>
         <name>andhikayuana</name>
     </author>
     <id>https://yuana.id</id>
 
-    <entry>
-        <title>This is Second Post!</title>
-        <author>
-            <name>andhikayuana</name>
-        </author>
-        <link href="https://yuana.id/this-is-second-post.html"/>
-        <id>https://yuana.id/this-is-second-post.html</id>
-
-        <updated>2019-03-13T17:49:43+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://yuana.id/media/posts/2/" alt="" />
-                    Lorem ipsum dolor sit amet
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://yuana.id/media/posts/2/" alt="" />
-                Lorem ipsum dolor sit amet
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>Hello World!</title>
         <author>
