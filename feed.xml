@@ -3,7 +3,7 @@
     <title>yuana.id</title>
     <link href="https://yuana.id/feed.xml" rel="self" />
     <link href="https://yuana.id" />
-    <updated>2019-06-11T16:11:50+07:00</updated>
+    <updated>2019-06-11T16:34:00+07:00</updated>
     <author>
         <name>andhikayuana</name>
     </author>
@@ -19,16 +19,16 @@
             <category term="Tech"/>
             <category term="General"/>
 
-        <updated>2019-06-11T16:11:46+07:00</updated>
+        <updated>2019-06-11T16:33:54+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://yuana.id/media/posts/3/" alt="" />
+                        <img src="https://yuana.id/media/posts/3/logo-composer-transparent2.png" alt="" />
                     Tutorial - Membuat PHP Package sendiriApa itu PHP Package ?Anda pernah menggunakan PHP framework ? misalnya menggunakan Laravel atau Yii, pasti Anda pernah menjalankan perintah seperti berikut, misal untuk menambahkan suatu pustaka dari Facebook SDK : composer require facebook/graph-sdkatau menambahkan menambahkan pustaka untuk pengolahan waktu&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://yuana.id/media/posts/3/" alt="" />
+                    <img src="https://yuana.id/media/posts/3/logo-composer-transparent2.png" alt="" />
                 <h1 id="mcetoc_1dd2ssgr40"><img class="post__image--center" src="https://yuana.id/media/posts/3/logo-composer-transparent2.png" alt="composer" width="290" height="356"></h1>
 <h1 id="mcetoc_1dd2rt2d20">Tutorial - Membuat PHP Package sendiri</h1>
 <h2 id="mcetoc_1dd2rt2d31">Apa itu PHP Package ?</h2>
