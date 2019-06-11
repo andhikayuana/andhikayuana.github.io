@@ -3,7 +3,7 @@
     <title>yuana.id</title>
     <link href="https://yuana.id/feed.xml" rel="self" />
     <link href="https://yuana.id" />
-    <updated>2019-06-11T15:59:48+07:00</updated>
+    <updated>2019-06-11T16:04:09+07:00</updated>
     <author>
         <name>andhikayuana</name>
     </author>
@@ -16,8 +16,10 @@
         </author>
         <link href="https://yuana.id/tutorial-membuat-php-package-sendiri-bagian-1/"/>
         <id>https://yuana.id/tutorial-membuat-php-package-sendiri-bagian-1/</id>
+            <category term="Tech"/>
+            <category term="General"/>
 
-        <updated>2019-06-11T15:59:43+07:00</updated>
+        <updated>2019-06-11T16:04:05+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://yuana.id/media/posts/3/" alt="" />
