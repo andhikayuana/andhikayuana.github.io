@@ -3,7 +3,7 @@
     <title>yuana.id</title>
     <link href="https://yuana.id/feed.xml" rel="self" />
     <link href="https://yuana.id" />
-    <updated>2019-06-11T15:56:52+07:00</updated>
+    <updated>2019-06-11T15:59:48+07:00</updated>
     <author>
         <name>andhikayuana</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://yuana.id/tutorial-membuat-php-package-sendiri-bagian-1/"/>
         <id>https://yuana.id/tutorial-membuat-php-package-sendiri-bagian-1/</id>
 
-        <updated>2019-06-11T15:54:49+07:00</updated>
+        <updated>2019-06-11T15:59:43+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://yuana.id/media/posts/3/" alt="" />
@@ -79,6 +79,7 @@ Anda bisa menjalankan tesnya seperti pada perintah di sebelumnya<br>
 <pre>composer test<br>&gt; phpunit --testdox<br>PHPUnit 7.5.12 by Sebastian Bergmann and contributors.<br><br>Runtime:       PHP 7.1.23<br>Configuration: /Users/andhikayuana/Code/playground/bangun-datar/phpunit.xml<br><br>Basic<br> ✔ Should success when assert true [2.49 ms]<br><br>Time: 34 ms, Memory: 4.00 MB<br><br>OK (1 test, 1 assertion)</pre>
 <h3 id="mcetoc_1dd2rtmppb"><!-- wp:paragraph --></h3>
 <p>Tutorial kali ini sampai sini dulu, Tunggu bagian 2 dan jangan lupa untuk melakukan commit kode yang Anda buat 😄</p>
+<p>Anda juga bisa membacanya di sini <a href="https://ajaro.id/blog/2019/06/11/tutorial-membuat-php-package-sendiri-bagian-1/">https://ajaro.id/blog/2019/06/11/tutorial-membuat-php-package-sendiri-bagian-1/</a></p>
 <h3 id="mcetoc_1dd2rtmppc"><!-- /wp:paragraph --> <!-- wp:paragraph --></h3>
 <p>Terimakasih, semoga bermanfaat</p>
 <h3 id="mcetoc_1dd2rt2d39"><!-- /wp:paragraph --></h3>
