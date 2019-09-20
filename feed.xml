@@ -3,7 +3,7 @@
     <title>yuana.id</title>
     <link href="https://yuana.id/feed.xml" rel="self" />
     <link href="https://yuana.id" />
-    <updated>2019-09-21T00:41:47+07:00</updated>
+    <updated>2019-09-21T00:44:59+07:00</updated>
     <author>
         <name>andhikayuana</name>
     </author>
@@ -19,7 +19,7 @@
             <category term="Tech"/>
             <category term="General"/>
 
-        <updated>2019-09-21T00:41:41+07:00</updated>
+        <updated>2019-09-21T00:44:42+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://yuana.id/media/posts/4/Screen-Shot-2019-09-21-at-00.30.47.png" alt="" />
@@ -41,7 +41,7 @@
 <pre>implementation 'com.squareup.retrofit2.retrofit:2.6.1'<br>implementation 'com.squareup.retrofit2.converter-gson:2.6.1'</pre>
 <p>kemudian klik <em>sync project with gradle files <img class="post__image" src="https://yuana.id/media/posts/4/Screen-Shot-2019-09-21-at-00.33.23.png" alt="sync project with gradle files" width="27" height="30"></em> </p>
 <p>setelah proses sinkronisasi selesai, kita akan membuat struktur seperti di bawah ini</p>
-<pre>.<br>├── App.kt<br>├── DetailProductActivity.kt<br>├── MainActivity.kt<br>├── adapter<br>│   └── ListProductAdapter.kt<br>├── data<br>│   ├── model<br>│   │   └── Product.kt<br>│   ├── remote<br>│   │   ├── BelanjaApi.kt<br>│   │   └── response<br>│   │    ├── ProductResponse.kt<br>│   │    └── ProductsResponse.kt<br>│   └── repository<br>│   └── ProductRepository.kt<br>└── ext<br> └── Toaster.kt<br><br>7 directories, 10 files</pre>
+<pre>.<br>├── App.kt<br>├── DetailProductActivity.kt<br>├── MainActivity.kt<br>├── adapter<br>│   └── ListProductAdapter.kt<br>├── data<br>│   ├── model<br>│   │   └── Product.kt<br>│   ├── remote<br>│   │   ├── BelanjaApi.kt<br>│   │   └── response<br>│   │       ├── ProductResponse.kt<br>│   │       └── ProductsResponse.kt<br>│   └── repository<br>│       └── ProductRepository.kt<br>└── ext<br>    └── Toaster.kt<br><br>7 directories, 10 files</pre>
             ]]>
         </content>
     </entry>
