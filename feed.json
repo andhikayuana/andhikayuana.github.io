@@ -20,10 +20,11 @@
                 "name": "andhikayuana"
             },
             "tags": [
-                   "Tech"
+                   "Tech",
+                   "General"
             ],
             "date_published": "2019-09-21T00:32:22+07:00",
-            "date_modified": "2019-09-21T00:40:55+07:00"
+            "date_modified": "2019-09-21T00:41:41+07:00"
         },
         {
             "id": "https://yuana.id/tutorial-membuat-php-package-sendiri-bagian-1/",
