@@ -3,12 +3,46 @@
     <title>yuana.id</title>
     <link href="https://yuana.id/feed.xml" rel="self" />
     <link href="https://yuana.id" />
-    <updated>2019-06-11T16:34:00+07:00</updated>
+    <updated>2019-09-21T00:38:06+07:00</updated>
     <author>
         <name>andhikayuana</name>
     </author>
     <id>https://yuana.id</id>
 
+    <entry>
+        <title>Kotlin Everywhere - Android Fundamentals</title>
+        <author>
+            <name>andhikayuana</name>
+        </author>
+        <link href="https://yuana.id/kotlin-everywhere-android-fundamentals/"/>
+        <id>https://yuana.id/kotlin-everywhere-android-fundamentals/</id>
+            <category term="Tech"/>
+
+        <updated>2019-09-21T00:37:58+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://yuana.id/media/posts/4/Screen-Shot-2019-09-21-at-00.30.47.png" alt="" />
+                    Dari tutorial sebelumnya yang berada di Lanjut kita akan melakukan implementasi konsumsi API dari suatu Backend. tak perlu berlama - lama, langsung aja yak step selanjutnya kita tambahkan dependensi yang dibutuhkan untuk konsum suatu API pada file build.gradle pada level app, kali ini kita gunakan Retrofit. implementation 'com.squareup.retrofit2.retrofit:2.6.1' implementation 'com.squareup.retrofit2.converter-gson:2.6.1'kemudian&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://yuana.id/media/posts/4/Screen-Shot-2019-09-21-at-00.30.47.png" alt="" />
+                <p>Dari tutorial sebelumnya yang berada di </p>
+<ul>
+<li style="font-weight: 300;"><a href="https://bit.ly/KotlinBasic1"><span style="font-weight: 300;">https://bit.ly/KotlinBasic1</span></a><span style="font-weight: 300;"> </span></li>
+<li style="font-weight: 300;"><a href="https://bit.ly/KotlinBasic2"><span style="font-weight: 300;">https://bit.ly/KotlinBasic2</span></a><span style="font-weight: 300;"> </span></li>
+<li style="font-weight: 300;"><a href="https://bit.ly/KotlinBasic3"><span style="font-weight: 300;">https://bit.ly/KotlinBasic3</span></a><span style="font-weight: 300;"> </span></li>
+</ul>
+<p>Lanjut kita akan melakukan implementasi konsumsi <em>API</em> dari suatu <em>Backend. </em>tak perlu berlama - lama, langsung aja yak step selanjutnya </p>
+<p>kita tambahkan dependensi yang dibutuhkan untuk konsum suatu <em>API </em>pada file <strong>build.gradle</strong> pada level <strong>app</strong>, kali ini kita gunakan <em>Retrofit</em>.</p>
+<pre>implementation 'com.squareup.retrofit2.retrofit:2.6.1'<br>implementation 'com.squareup.retrofit2.converter-gson:2.6.1'</pre>
+<p>kemudian klik <em>sync project with gradle files <img class="post__image" src="https://yuana.id/media/posts/4/Screen-Shot-2019-09-21-at-00.33.23.png" alt="sync project with gradle files" width="27" height="30"></em> </p>
+<p>setelah proses sinkronisasi selesai, kita akan membuat struktur seperti di bawah ini</p>
+<pre>.<br>├── App.kt<br>├── DetailProductActivity.kt<br>├── MainActivity.kt<br>├── adapter<br>│   └── ListProductAdapter.kt<br>├── data<br>│   ├── model<br>│   │   └── Product.kt<br>│   ├── remote<br>│   │   ├── BelanjaApi.kt<br>│   │   └── response<br>│   │    ├── ProductResponse.kt<br>│   │    └── ProductsResponse.kt<br>│   └── repository<br>│   └── ProductRepository.kt<br>└── ext<br> └── Toaster.kt<br><br>7 directories, 10 files</pre>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Tutorial - Membuat PHP Package sendiri [bagian 1]</title>
         <author>
