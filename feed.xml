@@ -3,7 +3,7 @@
     <title>yuana.id</title>
     <link href="https://yuana.id/feed.xml" rel="self" />
     <link href="https://yuana.id" />
-    <updated>2019-09-21T07:53:14+07:00</updated>
+    <updated>2019-09-21T08:54:41+07:00</updated>
     <author>
         <name>andhikayuana</name>
     </author>
@@ -19,7 +19,7 @@
             <category term="Tech"/>
             <category term="General"/>
 
-        <updated>2019-09-21T07:52:55+07:00</updated>
+        <updated>2019-09-21T08:54:35+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://yuana.id/media/posts/4/Screen-Shot-2019-09-21-at-00.30.47.png" alt="" />
@@ -116,9 +116,20 @@
     <span class="pl-s"><span class="pl-pds">"</span>msg<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Success<span class="pl-pds">"</span></span>,
     <span class="pl-s"><span class="pl-pds">"</span>data<span class="pl-pds">"</span></span>: []
 }</pre>
-<p> </p>
-<p> </p>
-<p> </p>
+<p id="mcetoc_1dl8o96g03">Buatlah <em>Singleton class </em>seperti berikut </p>
+<pre>//id.belanja.app.data.remote</pre>
+<pre><br><br>object BelanjaApi {<br><br> fun create(): Api {<br> val retrofit = Retrofit.Builder()<br> .addConverterFactory(GsonConverterFactory.create())<br> .baseUrl(BuildConfig.BASE_URL)<br> .build()<br> return retrofit.create(Api::class.java)<br> }<br><br> interface Api {<br> @GET("/products")<br> fun getProducts(): Call&lt;ProductsResponse&gt;<br><br> @POST("/products")<br> fun saveProduct(@Body product: Product): Call&lt;ProductResponse&gt;<br><br> @DELETE("/products/{id}")<br> fun deleteProduct(@Path("id") id: Int): Call&lt;JsonObject&gt;</pre>
+<pre><br><code>        @PUT("/products/{id}")</code><br><code>        fun updateProuct(@Path("id") id: Int, @Body product: Product): Call&lt;ProductResponse&gt;</code><br><code>    }</code><br><code>}</code></pre>
+<h3 id="mcetoc_1dl8naluh0"> </h3>
+<h3 id="mcetoc_1dl8obans5">Kotlin Extension</h3>
+<p>Kotlin memiliki kemampuan untuk melakukan <em>extends</em> suatu <em>class</em> dengan <em>function</em> baru tanpa harus mewarisi dari <em>class. </em>gimana ? pusing :D</p>
+<p>seperti ini kalo di tulis di dalam kode</p>
+<pre><span class="hljs-function"><span class="hljs-keyword">//extensions<br>fun</span> <span class="hljs-built_in">Int</span>.<span class="hljs-title">triple</span><span class="hljs-params">()</span></span>: <span class="hljs-built_in">Int</span> { <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span> * <span class="hljs-number">3</span> } <br><br>//implementation<br><span class="hljs-keyword">var</span> result = <span class="hljs-number">3.</span>triple()</pre>
+<p> Seolah kita langsung memiliki fungsi <strong>triple() </strong>pada tipe data <strong>Int</strong>. Langsung saja, kita akan membuat ekstensi untuk melakukan <em>Toast </em>pada komponen android.</p>
+<pre>//id.belanja.app.ext<br>fun Any.toast(context: Context, duration: Int = Toast.LENGTH_SHORT): Toast {<br>return Toast.makeText(context, this.toString(), duration).apply { show() }<br>} </pre>
+<p>nantinya kita bisa gunakan ekstensi tersebut pada suatu <em>Activity</em> misalnya, seperti</p>
+<pre>"Hello World!".toast(this@MainActivity)</pre>
+<h3 id="mcetoc_1dl8o8du42">Implementation with Refactoring </h3>
 <p> </p>
 <p> </p>
             ]]>
