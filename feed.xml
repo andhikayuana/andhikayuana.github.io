@@ -3,14 +3,14 @@
     <title>yuana.id</title>
     <link href="https://yuana.id/feed.xml" rel="self" />
     <link href="https://yuana.id" />
-    <updated>2019-09-21T00:59:10+07:00</updated>
+    <updated>2019-09-21T07:07:51+07:00</updated>
     <author>
         <name>andhikayuana</name>
     </author>
     <id>https://yuana.id</id>
 
     <entry>
-        <title>Kotlin Everywhere - Android Fundamentals</title>
+        <title>Kotlin Everywhere : Android Fundamentals</title>
         <author>
             <name>andhikayuana</name>
         </author>
@@ -19,7 +19,7 @@
             <category term="Tech"/>
             <category term="General"/>
 
-        <updated>2019-09-21T00:59:06+07:00</updated>
+        <updated>2019-09-21T07:07:40+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://yuana.id/media/posts/4/Screen-Shot-2019-09-21-at-00.30.47.png" alt="" />
@@ -44,9 +44,11 @@
 <p><img class="post__image" src="https://yuana.id/media/posts/4/Screen-Shot-2019-09-21-at-00.46.27.png" alt="" width="836" height="29"> </p>
 <p>setelah proses sinkronisasi selesai, kita akan membuat struktur seperti di bawah ini</p>
 <pre>.<br>├── App.kt<br>├── DetailProductActivity.kt<br>├── MainActivity.kt<br>├── adapter<br>│   └── ListProductAdapter.kt<br>├── data<br>│   ├── model<br>│   │   └── Product.kt<br>│   ├── remote<br>│   │   ├── BelanjaApi.kt<br>│   │   └── response<br>│   │       ├── ProductResponse.kt<br>│   │       └── ProductsResponse.kt<br>│   └── repository<br>│       └── ProductRepository.kt<br>└── ext<br>    └── Toaster.kt<br><br>7 directories, 10 files</pre>
+<p id="mcetoc_1dl8gf5k40">dengan memindahkan berkas sebelumnya ke <em>package</em> yang dikehendaki seperti di atas dan membuat berkas baru (masih kosongan)</p>
 <h3 id="mcetoc_1dl7sp9ro0">Instalasi Plugin</h3>
-<p id="mcetoc_1dl7svb7c2">Untuk mempermudah proses <em>parsing </em>response dari suatu <em>API</em>, kita bisa menggunakan suatu generator yang beranama <em>JsonToKotlinClass</em> yang ada di <em>marketplace plugin </em>pada <strong><em>Android Studio -&gt;</em></strong> <strong><em>Preferences -&gt; Plugins -&gt; JsonToKotlinClass</em> </strong>dan pasang</p>
+<p id="mcetoc_1dl7svb7c2">Untuk mempermudah proses <em>parsing </em>response dari suatu <em>API</em>, kita bisa menggunakan suatu generator yang beranama <em>JsonToKotlinClass</em> yang ada di <em>marketplace plugin </em>pada <strong><em>Android Studio -&gt;</em></strong> <strong><em>Preferences -&gt; Plugins -&gt; JsonToKotlinClass</em></strong>, pasang</p>
 <p><img class="post__image" src="https://yuana.id/media/posts/4/Screen-Shot-2019-09-21-at-00.54.14.png" alt="JsonToKotlinClass" width="769" height="89"></p>
+<p> </p>
             ]]>
         </content>
     </entry>
